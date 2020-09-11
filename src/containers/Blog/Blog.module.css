@@ -1,7 +1,17 @@
-.Posts {
+
+
+.NavLinks {
+    list-style: none;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
-    width: 80%;
-    margin: auto;
+}
+
+.NavLinks a {
+    text-decoration: none;
+    margin: 20px;
+    color: #000;
+}
+
+.NavLinks a:hover, .NavLinks a.active {
+    color: #af2da5;
 }
